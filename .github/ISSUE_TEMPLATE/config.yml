@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 General Questions & Discussions
+    url: https://github.com/incognito-byte/youtube-member-filter/discussions
+    about: Ask questions, share tips, or discuss the extension with the community
+  - name: ☕ Support the Project
+    url: https://buymeacoffee.com/incognitobyte
+    about: Buy me a coffee if you find this extension helpful!

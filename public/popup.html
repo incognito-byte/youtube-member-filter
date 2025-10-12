@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Member Filter</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="mainView" class="view">
+        <h1>YouTube Member Filter</h1>
+
+        <div class="setting-group">
+          <div class="toggle-row">
+            <div class="toggle-text">
+              <span class="toggle-title">Filter membership only videos</span>
+              <small
+                >When enabled, membership-only videos will be removed from the
+                page.</small
+              >
+            </div>
+            <label class="toggle-switch">
+              <input type="checkbox" id="filterMembershipVideos" />
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div id="status" class="status"></div>
+
+        <div class="report-section">
+          <button id="supportProject" class="support-button">
+            ☕ Support this Project
+          </button>
+          <button id="reportIssue" class="report-button">
+            Report an Issue
+          </button>
+        </div>
+
+        <!-- Ad Banner Section -->
+        <!-- <div class="ad-banner">
+          <div id="adContent">
+            <p>Ad space</p>
+          </div>
+        </div> -->
+      </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
