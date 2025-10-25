@@ -1,6 +1,6 @@
 {
   "name": "youtube-member-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Chrome extension for filtering YouTube members",
   "scripts": {
     "build": "webpack --mode production",

@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.set({
-    filterMembershipVideos: false,
+    filterMembershipVideos: true,
   });
 });
 
